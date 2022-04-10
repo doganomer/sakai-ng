@@ -1,0 +1,28 @@
+{
+	"data": [
+		{
+			"id": "TR.İTU.1",
+			"issuedTo": "CTR Uluslararası Belgelendirme ve Denetim Ltd. Şti.",
+			"identityType": "Organik Tarım",
+			"version": "1.0",
+			"state": "Verildi",
+			"issueDate": "2022-02-01T20:28:30"
+		},
+		{
+			"id": "TR.İTU.3",
+			"issuedTo": "ETKO-Ekolojik Tarım Kontrol Org.Ltd.Şti.",
+			"identityType": "Organik Tarım",
+			"version": "1.0",
+			"state": "Verildi",
+			"issueDate": "2022-02-01T20:28:30"
+		},
+		{
+			"id": "TR.İTU.4",
+			"issuedTo": "ECAS-Sertifikasyon ve Uluslarası Denetim Ltd.Şti.",
+			"identityType": "Organik Tarım",
+			"version": "1.0",
+			"state": "Verildi",
+			"issueDate": "2022-02-01T20:28:30"
+		}
+	]
+}

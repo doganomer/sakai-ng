@@ -140,6 +140,8 @@ import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { AccessComponent } from './components/access/access.component';
+import { IssuedComponent } from './components/issued/issued.component';
+import { IssuedIdentityService } from './service/issuedIdentityService';
 
 @NgModule({
     imports: [
@@ -273,11 +275,12 @@ import { AccessComponent } from './components/access/access.component';
         ErrorComponent,
         NotfoundComponent,
         AccessComponent,
+        IssuedComponent
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},
         CountryService, CustomerService, EventService, IconService, NodeService,
-        PhotoService, ProductService, MenuService, ConfigService
+        PhotoService, ProductService, MenuService, ConfigService, IssuedIdentityService
     ],
     bootstrap: [AppComponent]
 })
